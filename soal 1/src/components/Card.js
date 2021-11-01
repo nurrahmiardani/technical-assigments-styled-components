@@ -1,6 +1,6 @@
 import { CardContainer, CardImage, CardBody, CardTitle, CardText, CardPrice, CardProductName } from './styles/Card';
 
-import Button from './Button';
+import Button from "./styles/Button"
 
 
 const Card = () => {
