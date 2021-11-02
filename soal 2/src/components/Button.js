@@ -1,7 +1,7 @@
 import { StyledButton } from "./styles/Button"
 
-export default function Button () {
+export default function Button (props) {
     return (
-        <StyledButton>Buy</StyledButton>
+        <StyledButton fullWidth={props.fullWidth}>Buy</StyledButton>
     )
 }

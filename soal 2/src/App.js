@@ -22,9 +22,11 @@ export const products = [
 
 export default function App() {
     return (
-        <div>
-            <Card/>
-        </div>
+        <FLexContainer>
+            {products.map((result) => 
+                (<Card src = {result.imageUrl} price={result.price} productName = {result.productName} />)
+            )}
+        </FLexContainer>
 
     )
 }
